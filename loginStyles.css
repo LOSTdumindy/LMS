@@ -1,0 +1,62 @@
+.body {
+    font-family: sans-serif;
+    text-transform: capitalize;
+    color: rgb(245, 239, 239);
+    font-weight: 300;
+    background-image: url(saturn-poligon-1242023.png);
+    background-size: auto;
+    background-position: center;
+    margin: 2rem;
+}
+a {
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+.center {
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    padding: 10rem;
+}
+.lContainer {
+    background-color: rgba(245, 245, 245, 0.514);
+    box-shadow: 1px 5px 15px rgb(8, 8, 8);
+    border-radius: 3%;
+}
+.lButtons {
+    display: flex;
+    justify-content: right;
+}
+.lButtons img {
+    height: 15px;
+}
+.insideContainer {
+    padding: 2rem;
+}
+input {
+    border: none;
+    background-color: transparent;
+    border-bottom: solid;
+    font-weight: 800;
+    color: black;
+}
+.form img {
+    height: 20px;
+}
+.lBottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+.lButton {
+    padding: 1rem;
+}
+.lButton button {
+    padding: 1rem;
+    text-transform: capitalize;
+    background-color: black;
+    color: white;
+    width: 200px;
+    cursor: pointer;
+}
